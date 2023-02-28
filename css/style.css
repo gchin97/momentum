@@ -1,3 +1,12 @@
-.hidden {
-    display: none;
-  }
+.hidden{
+  display: none;
+}
+#opening_name_form{
+  display:flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 100px;}
+#name_typed{
+  border-style: none;
+}
