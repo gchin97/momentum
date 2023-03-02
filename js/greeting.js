@@ -25,6 +25,6 @@ if (saved_username== null){
     login_form.classList.remove("hidden");
     name_submit.addEventListener("click",onClickSubmit);
 }else{
-    // login_form.classList.add("hidden");
+    login_form.classList.add("hidden");
     greetings(saved_username);
 }

@@ -10,3 +10,14 @@ margin: 100px;}
 #name_typed{
   border-style: none;
 }
+
+.bgimg{
+z-index: 0;
+margin: 0px 0px;
+height: 100%;
+width:100%;
+background-size: cover;
+margin: auto;
+/* position: absolute; */
+background-position: center;
+}
