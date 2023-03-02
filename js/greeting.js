@@ -13,7 +13,7 @@ function onClickSubmit(event){
 }
 function greetings(username_typed){
     greeting.classList.remove("hidden");
-    greeting.innerText=`hello + ${username_typed}`;
+    greeting.innerText=`Hello, ${username_typed}`;
     
 }
 

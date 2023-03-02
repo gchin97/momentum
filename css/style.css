@@ -1,7 +1,70 @@
 .hidden{
   display: none;
 }
+#greeting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 #opening_name_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 300px 20px;
+}
+
+#opening_name_form{
+  margin-bottom: 20px;
+}
+
+#opening_name_form input{
+  border-radius: 12px;
+  padding: 20px 80px;
+  transition: all 1s ease-in-out;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+#opening_name_form:hover input{
+  background-color: blanchedalmond;
+}
+
+#opening_name_form:focus input{
+  border-style: none;
+}
+/* #name_submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name_submit input{
+border-radius: 20px;
+padding: 10px 20px;
+border-style: none;
+}
+ */
+
+#quote span{
+  display: block;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+}
+#clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+/* #opening_name_form{
   display:flex;
   flex-direction: column;
 align-items: center;
@@ -9,15 +72,38 @@ justify-content: center;
 margin: 100px;}
 #name_typed{
   border-style: none;
-}
+} */
 
 .bgimg{
-z-index: 0;
-margin: 0px 0px;
-height: 100%;
-width:100%;
-background-size: cover;
-margin: auto;
-/* position: absolute; */
-background-position: center;
-}
+
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+  opacity:60%;
+  }
+
+  #todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #todo-form input{
+    border-radius: 15px;
+    border-style: none;
+    padding: 20px;
+  }
+  #todo-form :focus{
+    outline: none;
+  }
+  #todo-form input::placeholder{
+    padding: 50px 10px;
+    justify-content: center;
+    outline: none;
+  }
