@@ -47,7 +47,7 @@ function paintTodo(newTodo){
     li.appendChild(span);
     const btn = document.createElement("button");
     btn.addEventListener("click", deleteTodo);
-    btn.innerText = "🤸‍♀️";
+    btn.innerText = "⚽️";
     li.appendChild(btn);
     todoList.appendChild(li);
 }
