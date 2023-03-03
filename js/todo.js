@@ -40,9 +40,9 @@ function deleteTodo(event){
 }
 function paintTodo(newTodo){
     const li = document.createElement("li");
+    // object로 저장되어서 text 와 id 중 텍스트만 저장됨
     li.id = newTodo.id;
     const span = document.createElement("span");
-    // object로 저장되어서 text 와 id 중 텍스트만 저장됨
     span.innerText = newTodo.text;
     li.appendChild(span);
     const btn = document.createElement("button");
