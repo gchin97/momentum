@@ -51,7 +51,7 @@ border-style: none;
 #quote span{
   display: block;
   display: flex;
-  padding: 15px;
+  padding: 14px;
   justify-content: center;
   align-items: center;
   font-weight: 500;
