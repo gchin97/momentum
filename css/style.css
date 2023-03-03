@@ -51,12 +51,13 @@ border-style: none;
 #quote span{
   display: block;
   display: flex;
-  padding: 14px;
+  padding: 15px;
   justify-content: center;
   align-items: center;
   font-weight: 500;
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 #clock{
   display: flex;
@@ -107,3 +108,23 @@ margin: 100px;}
     justify-content: center;
     outline: none;
   }
+  
+#todo-list li{
+  color: white;
+  /* display: flex; */
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 600;
+}
+#todo-list span{
+ color: white;
+ padding: 20px;
+} 
+
+#todo-list button{
+ border-radius: 50%;
+}
+
